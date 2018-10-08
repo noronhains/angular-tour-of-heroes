@@ -5,7 +5,7 @@ import {Hero} from '../hero';
   templateUrl: './hero-detail.component.html',
   styleUrls: ['./hero-detail.component.css']
 })
-export class HeroeDetailComponent implements OnInit {
+export class HeroDetailComponent implements OnInit {
 
   @Input() hero: Hero;
 
